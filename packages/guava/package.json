@@ -1,5 +1,5 @@
 {
-  "name": "todo",
+  "name": "@juicy-js/guava",
   "version": "0.0.0",
   "main": "dist/index.js",
   "source": "src/index.tsx",
@@ -7,7 +7,7 @@
   "repository": "git@github.com:hamlim/todo.git",
   "author": "Matt Hamlin <matthewjameshamlin@gmail.com>",
   "license": "MIT",
-  "packageManager": "yarn@3.3.1",
+  "bin": "./bin/index.js",
   "scripts": {
     "prebuild": "rm -rf dist/",
     "build": "babel src/ --out-dir dist/ --extensions '.ts,.tsx' && tsc",

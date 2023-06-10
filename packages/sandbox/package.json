@@ -2,11 +2,11 @@
   "name": "sandbox",
   "type": "module",
   "dependencies": {
-    "TODO": "workspace:*"
+    "@juicy-js/guava": "workspace:*"
   },
   "scripts": {
-    "dev": "TODO dev",
-    "build": "TODO build",
-    "start": "node ./server.mjs"
+    "xdev": "guava dev",
+    "xbuild": "guava build",
+    "xstart": "node ./server.mjs"
   }
 }
