@@ -1,0 +1,12 @@
+{
+  "name": "sandbox",
+  "type": "module",
+  "dependencies": {
+    "TODO": "workspace:*"
+  },
+  "scripts": {
+    "dev": "TODO dev",
+    "build": "TODO build",
+    "start": "node ./server.mjs"
+  }
+}
